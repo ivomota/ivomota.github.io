@@ -9,17 +9,18 @@
     <body>
         <style>
             .container {
-                height: 10em;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                resize: vertical;
+                overflow: auto;
             }
             .main-text {
                 font-weight: 100;
-                width: 80%;
-                margin: 0 auto;
-                position: absolute;
-                top: 30%;
-                left: 10%;
-                transform: translate(0, -50%);
-                color: #757575
+                color: #757575;
+                padding: 20px;
+                resize: vertical;
+                overflow: auto;
             }
             .black {
                 color: #212121;
